@@ -4,8 +4,8 @@ A privacy-first personal finance app. Upload your bank statement PDF, and Privac
 
 - **Live app:** [ADD DEPLOYED URL]
 - **Demo video:** [ADD VIDEO URL]
-- **Repository:** [ADD GITHUB URL]
-- **Author:** [ADD NAME]
+- **Repository:** https://github.com/arya25bcs10682/privacyFinance
+- **Author:** Arya Kumar
 
 ---
 
@@ -178,14 +178,15 @@ Live app: [ADD URL]
 - **Statement layouts:** only HDFC, ICICI and SBI statements are targeted. Scanned (image-only) PDFs have no text layer and cannot be parsed.
 - **Reminders** are shown inside the app, not sent as push or email notifications.
 - **Live prices** come from an unofficial Yahoo Finance library and may occasionally be unavailable.
+- **Pdf extraction** this feature use to work but i somehow broke it while reviewing, even llm's are not able to fix it 
 
-## Future Work
+## Future Work (something which i actually am working on but i was caught in different things and couldnt finish it)
 
-- Optional on-device model for fully private parsing
-- Push and email reminders for bills
-- Mutual fund NAV tracking and SIP support
-- Secret key rotation and recovery code flow
-- Multi-account support
+- Optional on-device model for fully private parsing (mere gemini pe load kam hojayega and be able to process more parser requests)
+- Push and email reminders for bills 
+- Mutual fund NAV tracking and SIP support (investments tab me ye jayega )
+- Secret key rotation and recovery code flow 
+- Multi-account support (the problem is nothing is getting openly stored on the database(encrypted) or it is not even being stored in the db and if a user wants to use this website on some other device it will fail kyunki even the database doesnt know a damm thing to kaha se fetch karega)
 
 ## AI Usage
 
